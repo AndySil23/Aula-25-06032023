@@ -1,0 +1,15 @@
+{
+  "name": "parte-1---reciclagem---alunas",
+  "version": "1.0.0",
+  "description": "CRUD de alunas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Silva",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3"
+  }
+}

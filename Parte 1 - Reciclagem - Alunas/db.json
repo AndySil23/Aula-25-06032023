@@ -1,0 +1,24 @@
+{
+    "frutas": [{
+        "id": 1,
+        "nome": "banana",
+        "quantidade": 15
+        },
+        {
+            "id": 2,
+            "nome": "uva",
+            "quantidade": 10
+        },
+        {
+            "id": 1,
+            "nome": "maracujá",
+            "quantidade": 20
+        }
+    ],
+    "alunos": [{
+        "nome": "Ana Kelly",
+        "email": "anakelly1@email.com",
+        "telefone": "(66)66666-6666",
+        "cidade": "Fortaleza"
+    }]
+}

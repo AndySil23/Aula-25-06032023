@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container">
+
+    <div class="row mt-4 align-items-center">
+        <div class="col">
+            <h1 class="text-start">Nova aluna</h1>
+            <div class="form-check form-switch">
+                <input onchange="ativarDarkmode()" id="dark" type="checkbox" class="form-check-input">
+                <label for="dark" class="form-check-label">Modo Escuro</label>
+            </div>
+        
+        </div>
+        <div class="col text-end">
+            <a href="index.html" class="btn btn-outline-primary">Voltar</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <section class="row">
+        <div class="col">
+                <img src="img/IconeGarotaEstudando.svg" width="80%" alt="">
+        </div>
+        <div class="col">
+            <form action="" onsubmit="salvarAluno()">
+                <label for="nome">Nome</label>
+                <input onkeyup="alterarNome()" class="form-control mb-3" id="nome" type="text">
+                <label for="email">E-mail</label>
+                <input onkeyup="alterarEmail()" class="form-control mb-3" id="email" type="text">
+                <label for="telefone">Telefone</label>
+                <input onkeyup="alterarTelefone()" class="form-control mb-3" id="telefone" type="text">
+                <label for="cidade">Cidade</label>
+                <input onkeyup="alterarCidade()" class="form-control mb-3" id="cidade" type="number">
+                <button class="btn btn-success">Cadastrar</button>
+            </form>
+        </div> 
+    </section>
+
+
+    <script src="JS/eventos.js"></script>
+    <script src="JS/darkmode.js"></script>
+</body>
+
+</html>
